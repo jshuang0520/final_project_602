@@ -21,4 +21,4 @@ outline any cleaning or other preprocessing steps you plan to use:
 
 
 our goal:
-use linear regression model to predict the working temperature / use multiple models to make  prediction, and compare the metrics between models
+use linear regression model to predict the working temperature / use multiple models to make  prediction, and compare the effectiveness of these models
