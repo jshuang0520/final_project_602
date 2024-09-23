@@ -31,5 +31,5 @@ usin overview data:
 
 Since the distribution seems in a normal distribution (with several outliers), we do not intend to use any strategies to deal with imbalanced data.
 
-![img_distribution_1](plots/battery_consumption.png)
+![img_distribution_1](../plots/battery_consumption.png)
 
