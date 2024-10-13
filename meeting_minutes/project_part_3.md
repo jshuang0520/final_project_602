@@ -64,7 +64,6 @@
 - Distance km
 - Duration min
 - Mean Battery Temperature °C
-- SOC
 - Route/Area_FTMRoute
 - Route/Area_FTMRoute (2x)
 - Route/Area_FTMRoute reverse
