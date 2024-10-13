@@ -33,7 +33,9 @@ predict 'Soc' (Soc difference: Start - End)
 
 - (a) decision tree
 
-  - Decision Tree MSE: 0.0064
+  - Decision Tree Training MSE: 0.0000
+
+  - Decision Tree Testing MSE: 0.0064
 
   - Decision Tree R² Score: -0.4816
 
@@ -46,7 +48,9 @@ predict 'Soc' (Soc difference: Start - End)
                             Weather_dark    0.001758
 
 - (b) random forest
-  - Random Forest MSE: 0.0018
+  - Random Forest Training MSE: 0.0002
+
+  - Random Forest Testing MSE: 0.0018
 
   - Random Forest R² Score: 0.5764
 
