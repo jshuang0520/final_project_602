@@ -88,7 +88,7 @@
     - SOC difference = SOC (Start) - SOC (End)
 
 ## 4. Summary of Model Results
-1. Linear Models
+1. [Linear Models](<https://github.com/jshuang0520/final_project_602/blob/master/notebooks/programming_1_LinearRegression.ipynb>)
     - Linear Regression
         - Training MSE: 0.0004
         - Test MSE: 0.0006
@@ -101,7 +101,7 @@
         - Training MSE: 0.0005
         - Test MSE: 0.0004
         - R² Score: 0.8644
-2. Tree-Based Models
+2. [Tree-Based Models](<https://github.com/jshuang0520/final_project_602/blob/master/notebooks/baseline_tree_model.ipynb>)
     - Decision Tree
         - Training MSE: 0.0000
         - Test MSE: 0.0064
