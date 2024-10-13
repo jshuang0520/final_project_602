@@ -125,7 +125,7 @@
 
 ## 5. Answers to Questions:
 1. Analyze the accuracy of your methods on both the testing and training data.
-    - Detailed performance metrics can be found in the 4. Summary of Model Results section.
+    - Detailed performance metrics can be found in the  [Summary of Model Results section](#4-summary-of-model-results)
 2. Is any method clearly superior?
     - Yes, the linear methods (including linear regression, Lasso regression, and Ridge regression) clearly outperform the tree-based methods. They consistently show very low test MSE values (all below 0.0006) and high R² scores (all above 77%). This suggests that the predictors and the response variable have a degree of linearity, allowing linear models to excel over tree-based models in this case.
 3. What does this say about the linear nature of your data?
