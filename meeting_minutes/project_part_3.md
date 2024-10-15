@@ -124,8 +124,9 @@
 
 ## 5. Answers to Questions:
 1. Analyze the accuracy of your methods on both the testing and training data.
-    - Detailed performance metrics can be found in the  [Summary of Model Results section](#4-summary-of-model-results)
+    - Detailed performance metrics can be found in the [Summary of Model Results section](#4-summary-of-model-results)
 2. Is any method clearly superior?
     - Yes, the linear methods (including linear regression, Lasso regression, and Ridge regression) clearly outperform the tree-based methods. They consistently show very low test MSE values (all below 0.0006) and high R² scores (all above 77%). This suggests that the predictors and the response variable have a degree of linearity, allowing linear models to excel over tree-based models in this case.
 3. What does this say about the linear nature of your data?
     - The superior performance of linear models implies that the dataset likely has a linear relationship or boundary between the predictors and the response variable. Decision trees, which partition the feature space into discrete regions, typically perform worse in cases with strong linearity, as they are better suited for non-linear relationships. Therefore, the data's linear boundary favors linear models over tree-based models in this analysis.
+4. To sum up, theoretically, battery consumption is directly proportional to the driving distance. The feature importance analysis from the tree-based models identifies Distance as the most important feature, which aligns with real-world expectations.
